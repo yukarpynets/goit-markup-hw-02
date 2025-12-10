@@ -36,6 +36,8 @@ body {
     color: var(--navy-blue);
 }
 
+/* ================== NAV MENU ================== */
+
 .nav-list {
     list-style: none;
 }
