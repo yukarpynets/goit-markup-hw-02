@@ -29,6 +29,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    text-decoration: none;
 }
 
 .header-logo-accent {
