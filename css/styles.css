@@ -11,7 +11,7 @@
     --font-logo: "Raleway", sans-serif;
 }
 
-/* BODY */
+/* ================== BODY ================== */
 body {
     color: var(--slate);
     font-family: var(--font-primary);
@@ -20,10 +20,9 @@ body {
     background-color: var(--white);
 }
 
-/* ========== HEADER + LOGO + NAV ========== */
+/* ================== HEADER + LOGO ================== */
 
-.header-logo,
-.footer-logo {
+.header-logo {
     font-family: var(--font-logo);
     font-weight: 700;
     font-size: 18px;
@@ -41,6 +40,8 @@ body {
     list-style: none;
 }
 
+.nav-item {}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -54,7 +55,7 @@ body {
     color: var(--ocean);
 }
 
-/* ADDRESS (contacts in header) */
+/* ================== ADDRESS ================== */
 
 .header-address {
     font-style: normal;
@@ -63,6 +64,8 @@ body {
 .address-list {
     list-style: none;
 }
+
+.address-item {}
 
 .address-link {
     font-size: 16px;
@@ -76,7 +79,7 @@ body {
     color: var(--ocean);
 }
 
-/* ========== HERO (1a sezione) ========== */
+/* ================== HERO SECTION ================== */
 
 .hero {
     background-color: var(--navy-blue);
@@ -106,7 +109,7 @@ body {
     background-color: var(--ocean);
 }
 
-/* ========== TITOLI DI SEZIONE (2,3,4) ========== */
+/* ================== SECTION TITLES ================== */
 
 .section-title {
     font-size: 36px;
@@ -117,15 +120,19 @@ body {
     color: var(--navy-blue);
 }
 
-/* ========== FEATURES (2a sezione) ========== */
+/* ================== FEATURES (2a) ================== */
+
+.features {}
 
 .features-list {
     list-style: none;
 }
 
+.features-item {}
+
 .features-title {
-    font-weight: 500;
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -138,7 +145,7 @@ body {
     color: var(--slate);
 }
 
-/* ========== TEAM (3a sezione) ========== */
+/* ================== TEAM (3a) ================== */
 
 .team {
     background-color: var(--cloud);
@@ -167,7 +174,9 @@ body {
     color: var(--slate);
 }
 
-/* ========== PORTFOLIO (4a sezione) ========== */
+/* ================== PORTFOLIO (4a) ================== */
+
+.portfolio {}
 
 .portfolio-list {
     list-style: none;
@@ -193,10 +202,20 @@ body {
     color: var(--slate);
 }
 
-/* ========== FOOTER ========== */
+/* ================== FOOTER ================== */
 
 .footer {
     background-color: var(--navy-blue);
+}
+
+.footer-logo {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 }
 
 .footer-logo-accent {
